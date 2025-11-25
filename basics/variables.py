@@ -17,3 +17,9 @@ number1, number2, number3 = 3,4,5
 print(number1)
 print(number2)
 print(number3)
+
+# initializing multiple variables with once value
+a = b = c = 10
+print(a) 
+print(b)
+print(c)
