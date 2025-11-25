@@ -15,7 +15,7 @@ This is where I store all exercises, projects, and notes while learning Python, 
 ---
 
 ## 📂 Project Structure
-
+```
 python-practice/
 │
 ├── basics/
@@ -40,7 +40,7 @@ python-practice/
 │ └── mini_AI/
 │
 └── README.md
-
+```
 
 ---
 
