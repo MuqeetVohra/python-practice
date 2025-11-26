@@ -67,3 +67,20 @@ print(f'Data type of b is {b}')
 # bool to float
 b = float(a)
 print(f'Data type of b is {b}')
+
+# Strings Methods
+string = 'Machine Learning  ;'
+# slicing strings
+print(string[2:5]) # slice from index 2 till 5-1
+string=string.strip(';')
+# steps in slicing
+print(string[::2]) # skip 3-1 index from the string
+# stripping string
+print(string.strip(';'))
+# string concatenation
+word1 = 'Machine'
+word2 = 'Learning'
+word3 = word1 + word2
+print(word3)
+# uppercase the string
+print(string.upper())
