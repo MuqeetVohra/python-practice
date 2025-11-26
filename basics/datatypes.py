@@ -132,3 +132,20 @@ list_6 = [3,5,2,1,4]
 # sort function sort and modify the existing list
 list_6.sort(reverse=False)
 print(list_6)
+
+# tuple
+tuple_1 = (1,'Muqeet Vohra',3.4,True,'V')
+print(tuple_1)
+print(type(tuple_1))
+# converting list to tuple
+my_list = [3,4,5,6]
+print(my_list)
+print(type(my_list))
+my_tuple = tuple(my_list)
+print(my_tuple)
+print(type(my_tuple))
+# accessing element of tuple using indexing
+print(my_tuple[3])
+print((tuple_1[1])[7:]) # access string and slice it 
+# finding length of tuple
+print(len(tuple_1))
