@@ -39,3 +39,31 @@ e = 'Muqeet Vohra'
 print(e)
 print(f'Data type of e is {type(e)}')
 
+# Conversion of data types
+
+# int to float
+x = 10
+print(x)
+print(f'Data type of x is {type(x)}')
+
+y = float(x)
+print(y)
+print(f'Data type of y is {type(y)}')
+
+# float to int
+x  = 5.76
+print(x)
+print(f'Data type of x is {type(x)}')
+
+y = int(x)
+print(y)
+print(f'Data type of y is {type(y)}')
+
+# bool to int
+a = True
+b = int(a)
+print(f'Data type of b is {b}')
+
+# bool to float
+b = float(a)
+print(f'Data type of b is {b}')
