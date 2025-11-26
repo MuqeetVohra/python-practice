@@ -2,6 +2,8 @@
 # int
 # float
 # str
+# bool
+# complex (both real and imaginary number eg 3i)
 
 print(type(8))
 print(type(4.4))
@@ -11,4 +13,29 @@ print(type('Python'))
 num = 5
 print(type(num))
 print(float(num), type(float(num)))
+
+# ingetger
+a = 8
+print(a)
+print(f'Data type of a is {type(a)}')
+
+# floatint point
+b = 2.3
+print(b)
+print(f'Data type of b is {type(b)}')
+
+# complex numbers
+c = 1 + 3j
+print(c)
+print(f'Data type of c is {type(c)}')
+
+# bool
+d = True
+print(d)
+print(f'Data type of d is {type(d)}')
+
+# string
+e = 'Muqeet Vohra'
+print(e)
+print(f'Data type of e is {type(e)}')
 
