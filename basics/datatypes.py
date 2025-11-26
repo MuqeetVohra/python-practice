@@ -1,4 +1,4 @@
-# Basics Data types
+# Basics Data types (Immutable Objects)
 # int
 # float
 # str
@@ -84,3 +84,51 @@ word3 = word1 + word2
 print(word3)
 # uppercase the string
 print(string.upper())
+
+print('\n\n\nMutable Object\n\n\n')
+
+# Mutable Objects
+# List
+# Set
+# Dictionary
+# Tuple
+
+# list
+my_list = [1,2,3,'Muqeet Vohra','V', True,3.3,5,6]
+print(my_list)
+print(type(my_list))
+# append value at the end of the list 
+my_list.append(7)
+print(my_list)
+# insert element at perticular index
+my_list.insert(0,8) # 8 will be added at index 0
+print(my_list)
+# count function return the occurance of the certain value
+print(my_list.count(3))
+# len function count the total elements in the list
+print(len(my_list))
+# accessing element through indexing
+print(my_list[5])
+print((my_list[4])[:6]) # after accessing 4 element which is str, slicing string
+# list allows redundant value
+list_1 = [1,1,1,2,3,4,5,'Muqeet Vohra']
+print(list_1)
+# creating empty list
+empty_list = []
+print(empty_list)
+# deleting element from the list_1
+del (list_1[3])
+print(list_1)
+# joining two list
+list_2 = [1,2,3,4,5]
+list_3 = [6,7,8,9,10]
+list_4 = list_2 + list_3
+print(list_4)
+# nested list
+print('3d list or nested list')
+list_5 = [1,2,3,4,[5,6,7,8,[9,10,11,12,13]]]
+print(list_5[4][4][3])
+list_6 = [3,5,2,1,4]
+# sort function sort and modify the existing list
+list_6.sort(reverse=False)
+print(list_6)
