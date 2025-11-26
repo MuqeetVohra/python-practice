@@ -93,7 +93,7 @@ print('\n\n\nMutable Object\n\n\n')
 # Dictionary
 # Tuple
 
-# list
+# list [ ]
 my_list = [1,2,3,'Muqeet Vohra','V', True,3.3,5,6]
 print(my_list)
 print(type(my_list))
@@ -133,7 +133,7 @@ list_6 = [3,5,2,1,4]
 list_6.sort(reverse=False)
 print(list_6)
 
-# tuple
+# tuple ( )
 tuple_1 = (1,'Muqeet Vohra',3.4,True,'V')
 print(tuple_1)
 print(type(tuple_1))
@@ -149,3 +149,25 @@ print(my_tuple[3])
 print((tuple_1[1])[7:]) # access string and slice it 
 # finding length of tuple
 print(len(tuple_1))
+
+# set { }
+my_set = {1,2,3,4,5}
+print(my_set)
+print(type(my_set))
+# set doesn't support indexing 
+# print(my_set[3]) # error
+# convert a list to set
+list_7 = [1,2,3,4,5]
+set_1 = set(list_7)
+print(set_1)
+print(type(set_1))
+# set doesn't allow duplicate values. It will ignore redundant values
+set_2 = {1,1,2,3,4,4}
+print(set_2)
+# add function adds element at the end of the set
+set_2.add(5)
+print(set_2)
+# len function count the length of the set too
+print(len(set_2))
+set_2.pop()
+print(set_2)
