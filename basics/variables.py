@@ -23,3 +23,17 @@ a = b = c = 10
 print(a) 
 print(b)
 print(c)
+
+# input function
+num_1 = input('Enter the first number: ')
+num_2 = input('Enter the second number: ')
+# need to convert the value to int because input function take input as str
+sum = int(num_1) + int(num_2)
+print('The sum is ', sum)
+
+# Q1) Swapping the values of variable
+x = 2
+y = 3
+y, x = x, y
+print(x,y)
+
