@@ -50,4 +50,11 @@ print(a < b) # less than
 print(a <= b) # greater than or equal to
 print(a >= b) # less than or equal to
 
+print('\n\nLogical Operators\n\n')
+
+# Logical Operators
+a = 10
+print(a > 20 and a < 5) # both condtions are false so it will return false
+print(a > 20 or a > 5) # one conditin is true so or will return true
+print(not(a > 5 and a < 30)) # not opertor will invert it
 
