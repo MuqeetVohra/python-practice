@@ -68,3 +68,23 @@ print(x is not y) # check if it is not equal
 y = 10
 print(x is not y)
 
+# Membership Operators
+# in
+# not in
+a = 5
+b = 10
+c = [1,2,3,4,5,6]
+print(a in c)
+print(b in c)
+# works in dictionary
+student = {"Name": "Ali", "Age": 20}
+print('Name' in student)
+print('Ali'in student) # it will not check values, only checks keys
+print('Name' not in student)
+# works in tuple
+a = (1,2,3,4)
+print(1 in a)
+# works in set
+a = {1,2,3,45}
+print(45 not in a)
+print(45 in a)
