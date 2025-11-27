@@ -15,3 +15,13 @@ numbers = [50, 100, 150, 200, 250]
 for i in numbers:
     print(i)
 
+# while loop
+i = 0
+while i < 10:
+    print(i)
+    i += 1
+
+i = 5
+while i < 3:
+    print(i)
+    i += 1
