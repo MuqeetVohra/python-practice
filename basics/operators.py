@@ -27,3 +27,15 @@ print(f'{num1} exponent {num2} is {res}')
 # modulus give the remainder
 res = num1 % num2
 print(f'Modulus of {num1} and {num2} is {res}')
+
+# Assignment Operators
+a = 5
+a += 5 # a = a + 5 => a = 5 + 5
+print(a)
+a -= 2
+print(a)
+a *= 2
+print(a)
+a /= 2
+print(a)
+b = 5
