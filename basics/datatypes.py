@@ -169,5 +169,22 @@ set_2.add(5)
 print(set_2)
 # len function count the length of the set too
 print(len(set_2))
+# pop function remove the first element  
 set_2.pop()
 print(set_2)
+
+# dictionary
+my_dictionary = {'Name': 'Muqeet', 'Age': 10, 'Country': 'Pakistan'}
+print(my_dictionary)
+print(type(my_dictionary))
+# accessing values using keys
+print(my_dictionary['Name'])
+print(my_dictionary['Age'])
+print(my_dictionary['Country'])
+# dictionary does not allow duplicate value
+dict_1 = {'Name': 'Muqeet', 'Name': 'Muqeet'}
+print(dict_1) # it ignored duplicate val
+# passing list as a value of key in dictionary 
+dict_2 = {'Name': ['Ali', 'Rohit', 'Muqeet'],
+          'Age': [20,22,24]}
+print(dict_2)
