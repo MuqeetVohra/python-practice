@@ -24,14 +24,15 @@ python-practice/
 | ├── operators.py
 | ├── conditinal_statement.py
 │ ├── loops.py
+│ ├── OOP.ipynb
 │ └── functions.py
 │
 ├── data_analysis/
-│ ├── pandas_exercises.ipynb
-│ ├── numpy_exercises.ipynb
+│ ├── pandas.ipynb
+│ ├── numpy.ipynb
 │ └── visualization/
-│ ├── matplotlib_practice.ipynb
-│ └── seaborn_practice.ipynb
+│ ├── matplotlib.ipynb
+│ └── seaborn.ipynb
 │
 ├── projects/
 │ ├── calculator/
@@ -59,7 +60,7 @@ python-practice/
 
 - Strengthen Python fundamentals ✅  
 - Practice data manipulation with Pandas and NumPy ✅  
-- Learn data visualization with Matplotlib & Seaborn ✅  
+- Practice data visualization with Matplotlib & Seaborn ✅  
 - Build mini Python projects 🔄  
 - Start exploring Machine Learning & AI soon ⏳  
 
